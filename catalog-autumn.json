@@ -1,0 +1,79 @@
+{
+  "$type": "Model.Core.FurnitureCatalog, Model",
+  "Name": "autumn Catalog",
+  "Season": "Autumn",
+  "Items": {
+    "$type": "System.Collections.Generic.List`1[[Model.Core.Furniture, Model]], System.Private.CoreLib",
+    "$values": [
+      {
+        "$type": "Model.Core.Chair, Model",
+        "HasBackSupport": true,
+        "Legs": 4,
+        "Price": 10000.0,
+        "Id": "A01",
+        "Article": "CH003",
+        "Brand": "IKEA",
+        "ModelName": "Leaf",
+        "ImagePath": "images/chair5.jpg"
+      },
+      {
+        "$type": "Model.Core.Table, Model",
+        "Area": 90,
+        "IsFolding": false,
+        "Price": 20000.0,
+        "Id": "A02",
+        "Article": "TB003",
+        "Brand": "RusticStyle",
+        "ModelName": "Maple",
+        "ImagePath": "images/table5.jpg"
+      },
+      {
+        "$type": "Model.Core.Sofa, Model",
+        "Seats": 3,
+        "HasStorage": false,
+        "Price": 16000.0,
+        "Id": "A03",
+        "Article": "SF003",
+        "Brand": "RelaxCo",
+        "ModelName": "FallRest",
+        "ImagePath": "images/sofa5.jpg"
+      },
+      {
+        "$type": "Model.Core.Bed, Model",
+        "Size": "Double",
+        "HasHeadboard": false,
+        "IsBunk": false,
+        "Price": 10000.0,
+        "Id": "A04",
+        "Article": "BD003",
+        "Brand": "Sleepy",
+        "ModelName": "AutumnDream",
+        "ImagePath": "images/bed5.jpg"
+      },
+      {
+        "$type": "Model.Core.Stool, Model",
+        "IsSoft": true,
+        "Price": 5500.0,
+        "HasBackSupport": false,
+        "Legs": 0,
+        "Id": "A05",
+        "Article": "ST003",
+        "Brand": "IKEA",
+        "ModelName": "Turnip",
+        "ImagePath": "images/stool5.jpg"
+      },
+      {
+        "$type": "Model.Core.Armchair, Model",
+        "IsReclining": true,
+        "Price": 12000.0,
+        "HasBackSupport": false,
+        "Legs": 0,
+        "Id": "A06",
+        "Article": "AR003",
+        "Brand": "NobleSeat",
+        "ModelName": "Pumpkin",
+        "ImagePath": "images/armchair5.jpg"
+      }
+    ]
+  }
+}

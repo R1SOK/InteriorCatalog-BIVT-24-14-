@@ -1,0 +1,24 @@
+{
+  "Name": "Summer Catalog",
+  "Season": "Summer 2025",
+  "Items": [
+    {
+      "HasBackSupport": true,
+      "Legs": 4,
+      "Price": 190.0,
+      "Id": "001",
+      "Article": "CH123",
+      "Brand": "IKEA",
+      "ModelName": "Poäng"
+    },
+    {
+      "Area": 120,
+      "IsFolding": true,
+      "Price": 540.0,
+      "Id": "002",
+      "Article": "TB456",
+      "Brand": "IKEA",
+      "ModelName": "LACK"
+    }
+  ]
+}

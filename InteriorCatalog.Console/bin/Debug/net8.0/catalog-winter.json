@@ -1,0 +1,75 @@
+{
+  "$type": "Model.Core.FurnitureCatalog, Model",
+  "Name": "winter Catalog",
+  "Season": "Winter",
+  "Items": [
+    {
+      "$type": "Model.Core.Chair, Model",
+      "HasBackSupport": false,
+      "Legs": 3,
+      "Price": 150.0,
+      "Id": "W01",
+      "Article": "CH002",
+      "Brand": "IKEA",
+      "ModelName": "WinterSeat",
+      "ImagePath": "images/chair2.jpg"
+    },
+    {
+      "$type": "Model.Core.Table, Model",
+      "Area": 150,
+      "IsFolding": true,
+      "Price": 600.0,
+      "Id": "W02",
+      "Article": "TB002",
+      "Brand": "FrostyWood",
+      "ModelName": "Arctic",
+      "ImagePath": "images/table2.jpg"
+    },
+    {
+      "$type": "Model.Core.Sofa, Model",
+      "Seats": 4,
+      "HasStorage": true,
+      "Price": 730.0,
+      "Id": "W03",
+      "Article": "SF002",
+      "Brand": "WarmNest",
+      "ModelName": "Cozy",
+      "ImagePath": "images/sofa2.jpg"
+    },
+    {
+      "$type": "Model.Core.Bed, Model",
+      "Size": "King",
+      "HasHeadboard": true,
+      "Price": 700.0,
+      "Id": "W04",
+      "Article": "BD002",
+      "Brand": "DreamBox",
+      "ModelName": "WinterKing",
+      "ImagePath": "images/bed2.jpg"
+    },
+    {
+      "$type": "Model.Core.Stool, Model",
+      "IsSoft": true,
+      "Price": 150.0,
+      "HasBackSupport": false,
+      "Legs": 0,
+      "Id": "W05",
+      "Article": "ST002",
+      "Brand": "SnowLine",
+      "ModelName": "Chill",
+      "ImagePath": "images/stool2.jpg"
+    },
+    {
+      "$type": "Model.Core.Armchair, Model",
+      "IsReclining": true,
+      "Price": 200.0,
+      "HasBackSupport": false,
+      "Legs": 0,
+      "Id": "W06",
+      "Article": "AR002",
+      "Brand": "ComfortMax",
+      "ModelName": "Hearth",
+      "ImagePath": "images/armchair2.jpg"
+    }
+  ]
+}

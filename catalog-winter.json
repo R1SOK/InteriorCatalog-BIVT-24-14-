@@ -1,0 +1,148 @@
+{
+  "$type": "Model.Core.FurnitureCatalog, Model",
+  "Name": "summer Catalog",
+  "Season": "Summer",
+  "Items": {
+    "$type": "System.Collections.Generic.List`1[[Model.Core.Furniture, Model]], System.Private.CoreLib",
+    "$values": [
+      {
+        "$type": "Model.Core.Chair, Model",
+        "HasBackSupport": true,
+        "Legs": 4,
+        "Price": 10000.0,
+        "Id": "W01",
+        "Article": "CH002",
+        "Brand": "SunnyStyle",
+        "ModelName": "BeachComfort",
+        "ImagePath": "images/chair3.jpg"
+      },
+      {
+        "$type": "Model.Core.Chair, Model",
+        "HasBackSupport": false,
+        "Legs": 3,
+        "Price": 4000.0,
+        "Id": "W07",
+        "Article": "CH003",
+        "Brand": "SummerBreeze",
+        "ModelName": "PatioRelax",
+        "ImagePath": "images/chair4.jpg"
+      },
+      {
+        "$type": "Model.Core.Table, Model",
+        "Area": 120,
+        "IsFolding": false,
+        "Price": 26000.0,
+        "Id": "W02",
+        "Article": "TB002",
+        "Brand": "TropicalWood",
+        "ModelName": "Palm",
+        "ImagePath": "images/table3.jpg"
+      },
+      {
+        "$type": "Model.Core.Table, Model",
+        "Area": 90,
+        "IsFolding": true,
+        "Price": 21000.0,
+        "Id": "W08",
+        "Article": "TB003",
+        "Brand": "CoastalDesign",
+        "ModelName": "Sunset",
+        "ImagePath": "images/table4.jpg"
+      },
+      {
+        "$type": "Model.Core.Sofa, Model",
+        "Seats": 3,
+        "HasStorage": false,
+        "Price": 16000.0,
+        "Id": "W03",
+        "Article": "SF002",
+        "Brand": "BreezeHome",
+        "ModelName": "Sunset",
+        "ImagePath": "images/sofa3.jpg"
+      },
+      {
+        "$type": "Model.Core.Sofa, Model",
+        "Seats": 2,
+        "HasStorage": true,
+        "Price": 18000.0,
+        "Id": "W09",
+        "Article": "SF003",
+        "Brand": "IslandLiving",
+        "ModelName": "HammockStyle",
+        "ImagePath": "images/sofa4.jpg"
+      },
+      {
+        "$type": "Model.Core.Bed, Model",
+        "Size": "Queen",
+        "HasHeadboard": true,
+        "IsBunk": false,
+        "Price": 25000.0,
+        "Id": "W04",
+        "Article": "BD002",
+        "Brand": "SummerDreams",
+        "ModelName": "OceanBreeze",
+        "ImagePath": "images/bed3.jpg"
+      },
+      {
+        "$type": "Model.Core.Bed, Model",
+        "Size": "Double",
+        "HasHeadboard": false,
+        "IsBunk": true,
+        "Price": 10000.0,
+        "Id": "W10",
+        "Article": "BD003",
+        "Brand": "TropicalNights",
+        "ModelName": "PalmSleep",
+        "ImagePath": "images/bed4.jpg"
+      },
+      {
+        "$type": "Model.Core.Stool, Model",
+        "IsSoft": false,
+        "Price": 2500.0,
+        "HasBackSupport": true,
+        "Legs": 3,
+        "Id": "W05",
+        "Article": "ST002",
+        "Brand": "CoastalLiving",
+        "ModelName": "Wave",
+        "ImagePath": "images/stool3.jpg"
+      },
+      {
+        "$type": "Model.Core.Stool, Model",
+        "IsSoft": true,
+        "Price": 5500.0,
+        "HasBackSupport": false,
+        "Legs": 4,
+        "Id": "W11",
+        "Article": "ST003",
+        "Brand": "BeachSide",
+        "ModelName": "SandBar",
+        "ImagePath": "images/stool4.jpg"
+      },
+      {
+        "$type": "Model.Core.Armchair, Model",
+        "IsReclining": false,
+        "Price": 2000.0,
+        "HasBackSupport": true,
+        "Legs": 4,
+        "Id": "W06",
+        "Article": "AR002",
+        "Brand": "IslandComfort",
+        "ModelName": "Paradise",
+        "ImagePath": "images/armchair4.jpg"
+      },
+      {
+        "$type": "Model.Core.Armchair, Model",
+        "IsReclining": true,
+        "Price": 12000.0,
+        "HasBackSupport": false,
+        "Legs": 1,
+        "Id": "W12",
+        "Article": "AR003",
+        "Brand": "SunsetComfort",
+        "ModelName": "Horizon",
+        "ImagePath": "images/armchair3.jpg"
+      }
+    ]
+  }
+}

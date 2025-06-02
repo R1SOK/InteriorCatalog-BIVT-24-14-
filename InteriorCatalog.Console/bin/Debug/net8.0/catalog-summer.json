@@ -1,0 +1,75 @@
+{
+  "$type": "Model.Core.FurnitureCatalog, Model",
+  "Name": "summer Catalog",
+  "Season": "Summer",
+  "Items": [
+    {
+      "$type": "Model.Core.Chair, Model",
+      "HasBackSupport": true,
+      "Legs": 4,
+      "Price": 190.0,
+      "Id": "S01",
+      "Article": "CH001",
+      "Brand": "IKEA",
+      "ModelName": "Poäng",
+      "ImagePath": "images/chair1.jpg"
+    },
+    {
+      "$type": "Model.Core.Table, Model",
+      "Area": 100,
+      "IsFolding": false,
+      "Price": 400.0,
+      "Id": "S02",
+      "Article": "TB001",
+      "Brand": "MebelLux",
+      "ModelName": "Luna",
+      "ImagePath": "images/table1.jpg"
+    },
+    {
+      "$type": "Model.Core.Sofa, Model",
+      "Seats": 2,
+      "HasStorage": false,
+      "Price": 440.0,
+      "Id": "S03",
+      "Article": "SF001",
+      "Brand": "ComfyHome",
+      "ModelName": "Breeze",
+      "ImagePath": "images/sofa1.jpg"
+    },
+    {
+      "$type": "Model.Core.Bed, Model",
+      "Size": "Single",
+      "HasHeadboard": false,
+      "Price": 500.0,
+      "Id": "S04",
+      "Article": "BD001",
+      "Brand": "SleepWell",
+      "ModelName": "LightNap",
+      "ImagePath": "images/bed1.jpg"
+    },
+    {
+      "$type": "Model.Core.Stool, Model",
+      "IsSoft": false,
+      "Price": 120.0,
+      "HasBackSupport": false,
+      "Legs": 0,
+      "Id": "S05",
+      "Article": "ST001",
+      "Brand": "IKEA",
+      "ModelName": "Basic",
+      "ImagePath": "images/stool1.jpg"
+    },
+    {
+      "$type": "Model.Core.Armchair, Model",
+      "IsReclining": false,
+      "Price": 120.0,
+      "HasBackSupport": false,
+      "Legs": 0,
+      "Id": "S06",
+      "Article": "AR001",
+      "Brand": "HomeSoft",
+      "ModelName": "Relax",
+      "ImagePath": "images/armchair1.jpg"
+    }
+  ]
+}
